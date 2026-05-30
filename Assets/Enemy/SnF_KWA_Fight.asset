@@ -1,0 +1,1063 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0000000deadbeef15deadf00d0000000, type: 2}
+  m_Name: SnF_KWA_Fight
+  m_EditorClassIdentifier:
+  IsActive: 1
+  m_ParryVFX: {fileID: 0}
+  m_ParryMaterialLerpConfig:
+    m_UseMaterialLerp: 0
+    m_isTimeScaleSensitive: 1
+    m_TriggerOnTick: 0
+    m_Priority: 0
+    m_stopOnInterruptByAnotherMaterialLerp: 0
+    m_applyToCharacterRenderers: 0
+    m_applyToPropRenderers: 0
+    m_propTypesToApply:
+    m_restoreInitialValuesOnStop: 0
+    m_enableLog: 0
+    m_UseStartValues: 0
+    m_MinimumDuration: 0
+    m_StartValues:
+      m_floatVars: []
+      m_intVars: []
+      m_colorVars: []
+    m_curves: []
+  m_SkippedParryAnimationVFX: {fileID: 0}
+  m_SkippedParryMaterialLerpConfig:
+    m_UseMaterialLerp: 0
+    m_isTimeScaleSensitive: 1
+    m_TriggerOnTick: 0
+    m_Priority: 0
+    m_stopOnInterruptByAnotherMaterialLerp: 0
+    m_applyToCharacterRenderers: 0
+    m_applyToPropRenderers: 0
+    m_propTypesToApply:
+    m_restoreInitialValuesOnStop: 0
+    m_enableLog: 0
+    m_UseStartValues: 0
+    m_MinimumDuration: 0
+    m_StartValues:
+      m_floatVars: []
+      m_intVars: []
+      m_colorVars: []
+    m_curves: []
+  m_GuardVFX: {fileID: 0}
+  m_GuardBlockVFX: {fileID: 0}
+  m_DefensiveVFXMirroredFromAttackDirection: 0
+  m_GuardBlockMaterialLerpConfig:
+    m_UseMaterialLerp: 0
+    m_isTimeScaleSensitive: 1
+    m_TriggerOnTick: 0
+    m_Priority: 0
+    m_stopOnInterruptByAnotherMaterialLerp: 0
+    m_applyToCharacterRenderers: 0
+    m_applyToPropRenderers: 0
+    m_propTypesToApply:
+    m_restoreInitialValuesOnStop: 0
+    m_enableLog: 0
+    m_UseStartValues: 0
+    m_MinimumDuration: 0
+    m_StartValues:
+      m_floatVars: []
+      m_intVars: []
+      m_colorVars: []
+    m_curves: []
+  m_GuardBrokenVFX: {fileID: 0}
+  m_ParrySFX:
+    idInternal: 0
+    valueGuidInternal:
+    WwiseObjectReference: {fileID: 0}
+  m_SkippedParryAnimationSFX:
+    idInternal: 0
+    valueGuidInternal:
+    WwiseObjectReference: {fileID: 0}
+  m_GuardSFXStart:
+    idInternal: 0
+    valueGuidInternal:
+    WwiseObjectReference: {fileID: 0}
+  m_GuardSFXStop:
+    idInternal: 0
+    valueGuidInternal:
+    WwiseObjectReference: {fileID: 0}
+  m_GuardBlockSFX:
+    idInternal: 0
+    valueGuidInternal:
+    WwiseObjectReference: {fileID: 0, guid: 0000000deadbeef15deadf00d0000000, type: 2}
+  m_GuardBrokenSFX:
+    idInternal: 0
+    valueGuidInternal:
+    WwiseObjectReference: {fileID: 0, guid: 0000000deadbeef15deadf00d0000000, type: 2}
+  m_GuardColorStart: {r: 1, g: 1, b: 1, a: 1}
+  m_GuardColorEnd: {r: 0.5200484, g: 1.6159921, b: 2.4500053, a: 1}
+  m_UseDirectionalHitFX: 1
+  m_HitLightVFX: {fileID: 0}
+  m_HitMediumVFX: {fileID: 0}
+  m_HitStrongVFX: {fileID: 0}
+  m_HitExtendedHitVFX: {fileID: 0}
+  m_LightDirectionalHitFX:
+    m_VerticalVFX: {fileID: 0, guid: 0000000deadbeef15deadf00d0000000, type: 2}
+    m_HorizontalVFX: {fileID: 0, guid: 0000000deadbeef15deadf00d0000000, type: 2}
+    m_DiagonalVFX: {fileID: 0, guid: 0000000deadbeef15deadf00d0000000, type: 2}
+    m_ThurstVFX: {fileID: 0, guid: 0000000deadbeef15deadf00d0000000, type: 2}
+    m_UpRotationAngle: 0
+    m_DownRotationAngle: 180
+    m_RightRotationAngle: 0
+    m_LeftRotationAngle: 180
+    m_DownRightRotationAngle: 0
+    m_UpRightRotationAngle: 200
+    m_UpLeftRotationAngle: 180
+    m_DownLeftRotationAngle: 20
+  m_MediumDirectionalHitFX:
+    m_VerticalVFX: {fileID: 0, guid: 0000000deadbeef15deadf00d0000000, type: 2}
+    m_HorizontalVFX: {fileID: 0, guid: 0000000deadbeef15deadf00d0000000, type: 2}
+    m_DiagonalVFX: {fileID: 0, guid: 0000000deadbeef15deadf00d0000000, type: 2}
+    m_ThurstVFX: {fileID: 0, guid: 0000000deadbeef15deadf00d0000000, type: 2}
+    m_UpRotationAngle: 0
+    m_DownRotationAngle: 180
+    m_RightRotationAngle: 0
+    m_LeftRotationAngle: 180
+    m_DownRightRotationAngle: 0
+    m_UpRightRotationAngle: 200
+    m_UpLeftRotationAngle: 180
+    m_DownLeftRotationAngle: 20
+  m_StrongDirectionalHitFX:
+    m_VerticalVFX: {fileID: 0, guid: 0000000deadbeef15deadf00d0000000, type: 2}
+    m_HorizontalVFX: {fileID: 0, guid: 0000000deadbeef15deadf00d0000000, type: 2}
+    m_DiagonalVFX: {fileID: 0, guid: 0000000deadbeef15deadf00d0000000, type: 2}
+    m_ThurstVFX: {fileID: 0, guid: 0000000deadbeef15deadf00d0000000, type: 2}
+    m_UpRotationAngle: 0
+    m_DownRotationAngle: 180
+    m_RightRotationAngle: 0
+    m_LeftRotationAngle: 180
+    m_DownRightRotationAngle: 0
+    m_UpRightRotationAngle: 200
+    m_UpLeftRotationAngle: 180
+    m_DownLeftRotationAngle: 20
+  m_ExtendedDirectionalHitFX:
+    m_VerticalVFX: {fileID: 0, guid: 0000000deadbeef15deadf00d0000000, type: 2}
+    m_HorizontalVFX: {fileID: 0, guid: 0000000deadbeef15deadf00d0000000, type: 2}
+    m_DiagonalVFX: {fileID: 0, guid: 0000000deadbeef15deadf00d0000000, type: 2}
+    m_ThurstVFX: {fileID: 0, guid: 0000000deadbeef15deadf00d0000000, type: 2}
+    m_UpRotationAngle: 0
+    m_DownRotationAngle: 180
+    m_RightRotationAngle: 0
+    m_LeftRotationAngle: 180
+    m_DownRightRotationAngle: 0
+    m_UpRightRotationAngle: 200
+    m_UpLeftRotationAngle: 180
+    m_DownLeftRotationAngle: 20
+  m_HitLightSFX:
+    idInternal: 0
+    valueGuidInternal:
+    WwiseObjectReference: {fileID: 0}
+  m_HitMediumSFX:
+    idInternal: 0
+    valueGuidInternal:
+    WwiseObjectReference: {fileID: 0}
+  m_HitStrongSFX:
+    idInternal: 0
+    valueGuidInternal:
+    WwiseObjectReference: {fileID: 0}
+  m_HitExtendedHitSFX:
+    idInternal: 0
+    valueGuidInternal:
+    WwiseObjectReference: {fileID: 0}
+  m_UseDirectionalHitBluntFX: 0
+  m_HitLightBluntVFX: {fileID: 0, guid: 0000000deadbeef15deadf00d0000000, type: 2}
+  m_HitMediumBluntVFX: {fileID: 0, guid: 0000000deadbeef15deadf00d0000000, type: 2}
+  m_HitStrongBluntVFX: {fileID: 0, guid: 0000000deadbeef15deadf00d0000000, type: 2}
+  m_HitExtendedHitBluntVFX: {fileID: 0, guid: 0000000deadbeef15deadf00d0000000, type: 2}
+  m_LightDirectionalHitBluntFX:
+    m_VerticalVFX: {fileID: 0}
+    m_HorizontalVFX: {fileID: 0}
+    m_DiagonalVFX: {fileID: 0}
+    m_ThurstVFX: {fileID: 0}
+    m_UpRotationAngle: 0
+    m_DownRotationAngle: 180
+    m_RightRotationAngle: 0
+    m_LeftRotationAngle: 180
+    m_DownRightRotationAngle: 0
+    m_UpRightRotationAngle: 90
+    m_UpLeftRotationAngle: 180
+    m_DownLeftRotationAngle: 270
+  m_MediumDirectionalHitBluntFX:
+    m_VerticalVFX: {fileID: 0}
+    m_HorizontalVFX: {fileID: 0}
+    m_DiagonalVFX: {fileID: 0}
+    m_ThurstVFX: {fileID: 0}
+    m_UpRotationAngle: 0
+    m_DownRotationAngle: 180
+    m_RightRotationAngle: 0
+    m_LeftRotationAngle: 180
+    m_DownRightRotationAngle: 0
+    m_UpRightRotationAngle: 90
+    m_UpLeftRotationAngle: 180
+    m_DownLeftRotationAngle: 270
+  m_StrongDirectionalHitBluntFX:
+    m_VerticalVFX: {fileID: 0}
+    m_HorizontalVFX: {fileID: 0}
+    m_DiagonalVFX: {fileID: 0}
+    m_ThurstVFX: {fileID: 0}
+    m_UpRotationAngle: 0
+    m_DownRotationAngle: 180
+    m_RightRotationAngle: 0
+    m_LeftRotationAngle: 180
+    m_DownRightRotationAngle: 0
+    m_UpRightRotationAngle: 90
+    m_UpLeftRotationAngle: 180
+    m_DownLeftRotationAngle: 270
+  m_ExtendedDirectionalHitBluntFX:
+    m_VerticalVFX: {fileID: 0}
+    m_HorizontalVFX: {fileID: 0}
+    m_DiagonalVFX: {fileID: 0}
+    m_ThurstVFX: {fileID: 0}
+    m_UpRotationAngle: 0
+    m_DownRotationAngle: 180
+    m_RightRotationAngle: 0
+    m_LeftRotationAngle: 180
+    m_DownRightRotationAngle: 0
+    m_UpRightRotationAngle: 90
+    m_UpLeftRotationAngle: 180
+    m_DownLeftRotationAngle: 270
+  m_HitLightBluntSFX:
+    idInternal: 0
+    valueGuidInternal:
+    WwiseObjectReference: {fileID: 0}
+  m_HitMediumBluntSFX:
+    idInternal: 0
+    valueGuidInternal:
+    WwiseObjectReference: {fileID: 0}
+  m_HitStrongBluntSFX:
+    idInternal: 0
+    valueGuidInternal:
+    WwiseObjectReference: {fileID: 0}
+  m_HitExtendedHitBluntSFX:
+    idInternal: 0
+    valueGuidInternal:
+    WwiseObjectReference: {fileID: 0}
+  m_UseDirectionalHurtFX: 1
+  m_HurtLightVFX: {fileID: 0}
+  m_HurtMediumVFX: {fileID: 0}
+  m_HurtStrongVFX: {fileID: 0}
+  m_HurtExtendedHitVFX: {fileID: 0}
+  m_LightDirectionalHurtFX:
+    m_VerticalVFX: {fileID: 0, guid: 0000000deadbeef15deadf00d0000000, type: 2}
+    m_HorizontalVFX: {fileID: 0, guid: 0000000deadbeef15deadf00d0000000, type: 2}
+    m_DiagonalVFX: {fileID: 0, guid: 0000000deadbeef15deadf00d0000000, type: 2}
+    m_ThurstVFX: {fileID: 0, guid: 0000000deadbeef15deadf00d0000000, type: 2}
+    m_UpRotationAngle: 0
+    m_DownRotationAngle: 180
+    m_RightRotationAngle: 0
+    m_LeftRotationAngle: 180
+    m_DownRightRotationAngle: 0
+    m_UpRightRotationAngle: 200
+    m_UpLeftRotationAngle: 180
+    m_DownLeftRotationAngle: 20
+  m_MediumDirectionalHurtFX:
+    m_VerticalVFX: {fileID: 0, guid: 0000000deadbeef15deadf00d0000000, type: 2}
+    m_HorizontalVFX: {fileID: 0, guid: 0000000deadbeef15deadf00d0000000, type: 2}
+    m_DiagonalVFX: {fileID: 0, guid: 0000000deadbeef15deadf00d0000000, type: 2}
+    m_ThurstVFX: {fileID: 0, guid: 0000000deadbeef15deadf00d0000000, type: 2}
+    m_UpRotationAngle: 0
+    m_DownRotationAngle: 180
+    m_RightRotationAngle: 0
+    m_LeftRotationAngle: 180
+    m_DownRightRotationAngle: 0
+    m_UpRightRotationAngle: 200
+    m_UpLeftRotationAngle: 180
+    m_DownLeftRotationAngle: 20
+  m_StrongDirectionalHurtFX:
+    m_VerticalVFX: {fileID: 0, guid: 0000000deadbeef15deadf00d0000000, type: 2}
+    m_HorizontalVFX: {fileID: 0, guid: 0000000deadbeef15deadf00d0000000, type: 2}
+    m_DiagonalVFX: {fileID: 0, guid: 0000000deadbeef15deadf00d0000000, type: 2}
+    m_ThurstVFX: {fileID: 0, guid: 0000000deadbeef15deadf00d0000000, type: 2}
+    m_UpRotationAngle: 0
+    m_DownRotationAngle: 180
+    m_RightRotationAngle: 0
+    m_LeftRotationAngle: 180
+    m_DownRightRotationAngle: 0
+    m_UpRightRotationAngle: 200
+    m_UpLeftRotationAngle: 180
+    m_DownLeftRotationAngle: 20
+  m_ExtendedDirectionalHurtFX:
+    m_VerticalVFX: {fileID: 0, guid: 0000000deadbeef15deadf00d0000000, type: 2}
+    m_HorizontalVFX: {fileID: 0, guid: 0000000deadbeef15deadf00d0000000, type: 2}
+    m_DiagonalVFX: {fileID: 0, guid: 0000000deadbeef15deadf00d0000000, type: 2}
+    m_ThurstVFX: {fileID: 0, guid: 0000000deadbeef15deadf00d0000000, type: 2}
+    m_UpRotationAngle: 0
+    m_DownRotationAngle: 180
+    m_RightRotationAngle: 0
+    m_LeftRotationAngle: 180
+    m_DownRightRotationAngle: 0
+    m_UpRightRotationAngle: 200
+    m_UpLeftRotationAngle: 180
+    m_DownLeftRotationAngle: 20
+  m_HurtByProjectileVFX: {fileID: 0}
+  m_HurtByProjectileSFX:
+    idInternal: 0
+    valueGuidInternal:
+    WwiseObjectReference: {fileID: 0, guid: 0000000deadbeef15deadf00d0000000, type: 2}
+  m_HurtByGPEVFX: {fileID: 0}
+  m_HurtByGPESFX:
+    idInternal: 0
+    valueGuidInternal:
+    WwiseObjectReference: {fileID: 0}
+  m_UseMaterialRelated_HurtByGPESFX: 0
+  m_MaterialRelated_HurtByGPESFX:
+    m_keys:
+    m_values: []
+  m_HurtSetSlashSFX:
+    idInternal: 0
+    valueGuidInternal:
+    WwiseObjectReference: {fileID: 0, guid: 0000000deadbeef15deadf00d0000000, type: 2}
+  m_HurtSetBluntSFX:
+    idInternal: 0
+    valueGuidInternal:
+    WwiseObjectReference: {fileID: 0, guid: 0000000deadbeef15deadf00d0000000, type: 2}
+  m_HurtLightSFX:
+    idInternal: 0
+    valueGuidInternal:
+    WwiseObjectReference: {fileID: 0, guid: 0000000deadbeef15deadf00d0000000, type: 2}
+  m_HurtMediumSFX:
+    idInternal: 0
+    valueGuidInternal:
+    WwiseObjectReference: {fileID: 0, guid: 0000000deadbeef15deadf00d0000000, type: 2}
+  m_HurtStrongSFX:
+    idInternal: 0
+    valueGuidInternal:
+    WwiseObjectReference: {fileID: 0, guid: 0000000deadbeef15deadf00d0000000, type: 2}
+  m_HurtExtendedHitSFX:
+    idInternal: 0
+    valueGuidInternal:
+    WwiseObjectReference: {fileID: 0, guid: 0000000deadbeef15deadf00d0000000, type: 2}
+  m_OnHurtMaterialLerpConfig:
+    m_UseMaterialLerp: 1
+    m_isTimeScaleSensitive: 1
+    m_TriggerOnTick: 0
+    m_Priority: 60
+    m_stopOnInterruptByAnotherMaterialLerp: 0
+    m_applyToCharacterRenderers: 1
+    m_applyToPropRenderers: 0
+    m_propTypesToApply:
+    m_restoreInitialValuesOnStop: 1
+    m_enableLog: 0
+    m_UseStartValues: 0
+    m_MinimumDuration: 0
+    m_StartValues:
+      m_floatVars: []
+      m_intVars: []
+      m_colorVars: []
+    m_curves:
+    - m_duration: 0.14
+      m_normalizedCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 1
+          inSlope: Infinity
+          outSlope: -0.62790877
+          weightedMode: 2
+          inWeight: 0
+          outWeight: 0.4283513
+        - serializedVersion: 3
+          time: 1
+          value: 0
+          inSlope: -1.6067195
+          outSlope: Infinity
+          weightedMode: 1
+          inWeight: 0.220339
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      m_floatVars: []
+      m_intVars: []
+      m_colorVars:
+      - m_variableName: Color_96916c142df1492b849a8d272e1a5a74
+        m_targetValue: {r: 0.122641504, g: 0.122641504, b: 0.122641504, a: 0}
+    - m_duration: 0.23
+      m_normalizedCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 1
+          inSlope: Infinity
+          outSlope: Infinity
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 0.3
+          value: 1
+          inSlope: -0.082125925
+          outSlope: -0.082125925
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0.16795075
+        - serializedVersion: 3
+          time: 1
+          value: 0
+          inSlope: -3.1032634
+          outSlope: -3.1032634
+          weightedMode: 0
+          inWeight: 0.055029735
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      m_floatVars:
+      - m_variableName: _FresnelColorPower
+        m_targetValue: 10
+      m_intVars: []
+      m_colorVars: []
+    - m_duration: 0.23
+      m_normalizedCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0.15
+          inSlope: 0.93247527
+          outSlope: 0.93247527
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0.07098737
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 0.53134507
+          outSlope: 0.53134507
+          weightedMode: 0
+          inWeight: 0.087827444
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      m_floatVars:
+      - m_variableName: _FresnelPower
+        m_targetValue: 10
+      m_intVars: []
+      m_colorVars: []
+    - m_duration: 0.26
+      m_normalizedCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 0.97572815
+          value: 1
+          inSlope: 0
+          outSlope: -20.599998
+          weightedMode: 0
+          inWeight: 0.99751246
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 1
+          value: 0
+          inSlope: -41.199997
+          outSlope: -41.199997
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      m_floatVars:
+      - m_variableName: _EnableFresnel
+        m_targetValue: 1
+      m_intVars: []
+      m_colorVars:
+      - m_variableName: _FresnelColor
+        m_targetValue: {r: 1, g: 1, b: 1, a: 0}
+  m_HurtHardCounterSFX:
+    idInternal: 0
+    valueGuidInternal:
+    WwiseObjectReference: {fileID: 0}
+  m_HurtHardCounterVFX: {fileID: 0}
+  m_HurtKillingBlowMeleeSFX:
+    idInternal: 0
+    valueGuidInternal:
+    WwiseObjectReference: {fileID: 0, guid: 0000000deadbeef15deadf00d0000000, type: 2}
+  m_HurtKillingBlowProjectileSFX:
+    idInternal: 0
+    valueGuidInternal:
+    WwiseObjectReference: {fileID: 0, guid: 0000000deadbeef15deadf00d0000000, type: 2}
+  m_HurtKillingBlowGPESFX:
+    idInternal: 0
+    valueGuidInternal:
+    WwiseObjectReference: {fileID: 0, guid: 0000000deadbeef15deadf00d0000000, type: 2}
+  m_TriggerLastHurtWithDelay: 0
+  m_TimeAfterLastHurt: 0
+  m_UseDirectionalLastHurtFX: 1
+  m_LastHurtLightVFX: {fileID: 0}
+  m_LastHurtMediumVFX: {fileID: 0}
+  m_LastHurtStrongVFX: {fileID: 0}
+  m_LastHurtExtendedHitVFX: {fileID: 0}
+  m_LightDirectionalLastHurtFX:
+    m_VerticalVFX: {fileID: 0, guid: 0000000deadbeef15deadf00d0000000, type: 2}
+    m_HorizontalVFX: {fileID: 0, guid: 0000000deadbeef15deadf00d0000000, type: 2}
+    m_DiagonalVFX: {fileID: 0, guid: 0000000deadbeef15deadf00d0000000, type: 2}
+    m_ThurstVFX: {fileID: 0, guid: 0000000deadbeef15deadf00d0000000, type: 2}
+    m_UpRotationAngle: 0
+    m_DownRotationAngle: 180
+    m_RightRotationAngle: 0
+    m_LeftRotationAngle: 180
+    m_DownRightRotationAngle: 0
+    m_UpRightRotationAngle: 200
+    m_UpLeftRotationAngle: 180
+    m_DownLeftRotationAngle: 20
+  m_MediumDirectionalLastHurtFX:
+    m_VerticalVFX: {fileID: 0, guid: 0000000deadbeef15deadf00d0000000, type: 2}
+    m_HorizontalVFX: {fileID: 0, guid: 0000000deadbeef15deadf00d0000000, type: 2}
+    m_DiagonalVFX: {fileID: 0, guid: 0000000deadbeef15deadf00d0000000, type: 2}
+    m_ThurstVFX: {fileID: 0, guid: 0000000deadbeef15deadf00d0000000, type: 2}
+    m_UpRotationAngle: 0
+    m_DownRotationAngle: 180
+    m_RightRotationAngle: 0
+    m_LeftRotationAngle: 180
+    m_DownRightRotationAngle: 0
+    m_UpRightRotationAngle: 200
+    m_UpLeftRotationAngle: 180
+    m_DownLeftRotationAngle: 20
+  m_StrongDirectionalLastHurtFX:
+    m_VerticalVFX: {fileID: 0, guid: 0000000deadbeef15deadf00d0000000, type: 2}
+    m_HorizontalVFX: {fileID: 0, guid: 0000000deadbeef15deadf00d0000000, type: 2}
+    m_DiagonalVFX: {fileID: 0, guid: 0000000deadbeef15deadf00d0000000, type: 2}
+    m_ThurstVFX: {fileID: 0, guid: 0000000deadbeef15deadf00d0000000, type: 2}
+    m_UpRotationAngle: 0
+    m_DownRotationAngle: 180
+    m_RightRotationAngle: 0
+    m_LeftRotationAngle: 180
+    m_DownRightRotationAngle: 0
+    m_UpRightRotationAngle: 200
+    m_UpLeftRotationAngle: 180
+    m_DownLeftRotationAngle: 20
+  m_ExtendedDirectionalLastHurtFX:
+    m_VerticalVFX: {fileID: 0, guid: 0000000deadbeef15deadf00d0000000, type: 2}
+    m_HorizontalVFX: {fileID: 0, guid: 0000000deadbeef15deadf00d0000000, type: 2}
+    m_DiagonalVFX: {fileID: 0, guid: 0000000deadbeef15deadf00d0000000, type: 2}
+    m_ThurstVFX: {fileID: 0, guid: 0000000deadbeef15deadf00d0000000, type: 2}
+    m_UpRotationAngle: 0
+    m_DownRotationAngle: 180
+    m_RightRotationAngle: 0
+    m_LeftRotationAngle: 180
+    m_DownRightRotationAngle: 0
+    m_UpRightRotationAngle: 200
+    m_UpLeftRotationAngle: 180
+    m_DownLeftRotationAngle: 20
+  m_OnLastHurtMaterialLerpConfig:
+    m_UseMaterialLerp: 0
+    m_isTimeScaleSensitive: 1
+    m_TriggerOnTick: 0
+    m_Priority: 0
+    m_stopOnInterruptByAnotherMaterialLerp: 0
+    m_applyToCharacterRenderers: 0
+    m_applyToPropRenderers: 0
+    m_propTypesToApply:
+    m_restoreInitialValuesOnStop: 0
+    m_enableLog: 0
+    m_UseStartValues: 0
+    m_MinimumDuration: 0
+    m_StartValues:
+      m_floatVars: []
+      m_intVars: []
+      m_colorVars: []
+    m_curves: []
+  m_ExtendedHitCounterRTPC:
+    idInternal: 0
+    valueGuidInternal:
+    WwiseObjectReference: {fileID: 0}
+  m_HealAlterationsFX:
+    m_keys:
+    m_values: []
+  m_DamageAlterationsFX:
+    m_keys: 010000000300000008000000040000000a000000070000000c000000090000000f000000
+    m_values:
+    - m_AlterationVFX: {fileID: 0, guid: 0000000deadbeef15deadf00d0000000, type: 2}
+      m_AlterationSFX:
+        idInternal: 0
+        valueGuidInternal:
+        WwiseObjectReference: {fileID: 0}
+      m_BodyPartAlterationVFXConfig:
+      - m_BodyPartToFeedback: 13
+        scaleShapeMultiplier: 4
+        scaleParticleMultiplier: 1.5
+        emissionAmountMultiplier: 1
+      - m_BodyPartToFeedback: 14
+        scaleShapeMultiplier: 2
+        scaleParticleMultiplier: 1
+        emissionAmountMultiplier: 1
+      m_AlterationStopVFX: {fileID: 0}
+      m_AlterationStopSFX:
+        idInternal: 0
+        valueGuidInternal:
+        WwiseObjectReference: {fileID: 0}
+    - m_AlterationVFX: {fileID: 0, guid: 0000000deadbeef15deadf00d0000000, type: 2}
+      m_AlterationSFX:
+        idInternal: 0
+        valueGuidInternal:
+        WwiseObjectReference: {fileID: 0}
+      m_BodyPartAlterationVFXConfig:
+      - m_BodyPartToFeedback: 13
+        scaleShapeMultiplier: 3
+        scaleParticleMultiplier: 1
+        emissionAmountMultiplier: 1
+      - m_BodyPartToFeedback: 12
+        scaleShapeMultiplier: 3
+        scaleParticleMultiplier: 1
+        emissionAmountMultiplier: 1
+      m_AlterationStopVFX: {fileID: 0}
+      m_AlterationStopSFX:
+        idInternal: 0
+        valueGuidInternal:
+        WwiseObjectReference: {fileID: 0}
+    - m_AlterationVFX: {fileID: 0, guid: 0000000deadbeef15deadf00d0000000, type: 2}
+      m_AlterationSFX:
+        idInternal: 0
+        valueGuidInternal:
+        WwiseObjectReference: {fileID: 0}
+      m_BodyPartAlterationVFXConfig:
+      - m_BodyPartToFeedback: 13
+        scaleShapeMultiplier: 2.7
+        scaleParticleMultiplier: 1
+        emissionAmountMultiplier: 1
+      - m_BodyPartToFeedback: 4
+        scaleShapeMultiplier: 2.7
+        scaleParticleMultiplier: 1
+        emissionAmountMultiplier: 1
+      - m_BodyPartToFeedback: 1
+        scaleShapeMultiplier: 2.7
+        scaleParticleMultiplier: 1
+        emissionAmountMultiplier: 1
+      m_AlterationStopVFX: {fileID: 0}
+      m_AlterationStopSFX:
+        idInternal: 0
+        valueGuidInternal:
+        WwiseObjectReference: {fileID: 0}
+    - m_AlterationVFX: {fileID: 0, guid: 0000000deadbeef15deadf00d0000000, type: 2}
+      m_AlterationSFX:
+        idInternal: 0
+        valueGuidInternal:
+        WwiseObjectReference: {fileID: 0}
+      m_BodyPartAlterationVFXConfig:
+      - m_BodyPartToFeedback: 13
+        scaleShapeMultiplier: 3
+        scaleParticleMultiplier: 1
+        emissionAmountMultiplier: 1
+      m_AlterationStopVFX: {fileID: 0}
+      m_AlterationStopSFX:
+        idInternal: 0
+        valueGuidInternal:
+        WwiseObjectReference: {fileID: 0}
+    - m_AlterationVFX: {fileID: 0, guid: 0000000deadbeef15deadf00d0000000, type: 2}
+      m_AlterationSFX:
+        idInternal: 0
+        valueGuidInternal:
+        WwiseObjectReference: {fileID: 0}
+      m_BodyPartAlterationVFXConfig:
+      - m_BodyPartToFeedback: 14
+        scaleShapeMultiplier: 1
+        scaleParticleMultiplier: 1
+        emissionAmountMultiplier: 1
+      m_AlterationStopVFX: {fileID: 0}
+      m_AlterationStopSFX:
+        idInternal: 0
+        valueGuidInternal:
+        WwiseObjectReference: {fileID: 0}
+    - m_AlterationVFX: {fileID: 0}
+      m_AlterationSFX:
+        idInternal: 0
+        valueGuidInternal:
+        WwiseObjectReference: {fileID: 0, guid: 0000000deadbeef15deadf00d0000000, type: 2}
+      m_BodyPartAlterationVFXConfig: []
+      m_AlterationStopVFX: {fileID: 0, guid: 0000000deadbeef15deadf00d0000000, type: 2}
+      m_AlterationStopSFX:
+        idInternal: 0
+        valueGuidInternal:
+        WwiseObjectReference: {fileID: 0, guid: 0000000deadbeef15deadf00d0000000, type: 2}
+    - m_AlterationVFX: {fileID: 0, guid: 0000000deadbeef15deadf00d0000000, type: 2}
+      m_AlterationSFX:
+        idInternal: 0
+        valueGuidInternal:
+        WwiseObjectReference: {fileID: 0}
+      m_BodyPartAlterationVFXConfig:
+      - m_BodyPartToFeedback: 13
+        scaleShapeMultiplier: 1
+        scaleParticleMultiplier: 1
+        emissionAmountMultiplier: 1
+      m_AlterationStopVFX: {fileID: 0}
+      m_AlterationStopSFX:
+        idInternal: 0
+        valueGuidInternal:
+        WwiseObjectReference: {fileID: 0}
+    - m_AlterationVFX: {fileID: 0, guid: 0000000deadbeef15deadf00d0000000, type: 2}
+      m_AlterationSFX:
+        idInternal: 0
+        valueGuidInternal:
+        WwiseObjectReference: {fileID: 0}
+      m_BodyPartAlterationVFXConfig:
+      - m_BodyPartToFeedback: 14
+        scaleShapeMultiplier: 3
+        scaleParticleMultiplier: 1
+        emissionAmountMultiplier: 1
+      m_AlterationStopVFX: {fileID: 0}
+      m_AlterationStopSFX:
+        idInternal: 0
+        valueGuidInternal:
+        WwiseObjectReference: {fileID: 0}
+    - m_AlterationVFX: {fileID: 0, guid: 0000000deadbeef15deadf00d0000000, type: 2}
+      m_AlterationSFX:
+        idInternal: 0
+        valueGuidInternal:
+        WwiseObjectReference: {fileID: 0}
+      m_BodyPartAlterationVFXConfig:
+      - m_BodyPartToFeedback: 13
+        scaleShapeMultiplier: 3
+        scaleParticleMultiplier: 1
+        emissionAmountMultiplier: 1
+      - m_BodyPartToFeedback: 12
+        scaleShapeMultiplier: 3
+        scaleParticleMultiplier: 1
+        emissionAmountMultiplier: 1
+      m_AlterationStopVFX: {fileID: 0}
+      m_AlterationStopSFX:
+        idInternal: 0
+        valueGuidInternal:
+        WwiseObjectReference: {fileID: 0}
+  m_OnHealAlterationMaterialLerpConfig:
+    m_keys:
+    m_values: []
+  m_OnDamageAlterationMaterialLerpConfig:
+    m_keys: 0300000001000000040000000800000009000000070000000c0000000f000000
+    m_values:
+    - m_UseMaterialLerp: 1
+      m_isTimeScaleSensitive: 1
+      m_TriggerOnTick: 1
+      m_Priority: 60
+      m_stopOnInterruptByAnotherMaterialLerp: 0
+      m_applyToCharacterRenderers: 1
+      m_applyToPropRenderers: 0
+      m_propTypesToApply:
+      m_restoreInitialValuesOnStop: 1
+      m_enableLog: 0
+      m_UseStartValues: 1
+      m_MinimumDuration: 0
+      m_StartValues:
+        m_floatVars:
+        - m_variableName: _EnableFresnel
+          m_targetValue: 1
+        - m_variableName: _FresnelPower
+          m_targetValue: 1
+        m_intVars: []
+        m_colorVars:
+        - m_variableName: _FresnelColor
+          m_targetValue: {r: 11.984314, g: 3.9529412, b: 1.0039216, a: 0}
+      m_curves:
+      - m_duration: 0.2
+        m_normalizedCurve:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: 0
+            value: 0
+            inSlope: 0
+            outSlope: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          - serializedVersion: 3
+            time: 1
+            value: 1
+            inSlope: 2
+            outSlope: 2
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        m_floatVars:
+        - m_variableName: _FresnelPower
+          m_targetValue: 10
+        m_intVars: []
+        m_colorVars: []
+    - m_UseMaterialLerp: 1
+      m_isTimeScaleSensitive: 1
+      m_TriggerOnTick: 1
+      m_Priority: 60
+      m_stopOnInterruptByAnotherMaterialLerp: 0
+      m_applyToCharacterRenderers: 1
+      m_applyToPropRenderers: 0
+      m_propTypesToApply:
+      m_restoreInitialValuesOnStop: 1
+      m_enableLog: 0
+      m_UseStartValues: 1
+      m_MinimumDuration: 0
+      m_StartValues:
+        m_floatVars:
+        - m_variableName: _EnableFresnel
+          m_targetValue: 1
+        - m_variableName: _FresnelPower
+          m_targetValue: 1
+        m_intVars: []
+        m_colorVars:
+        - m_variableName: _FresnelColor
+          m_targetValue: {r: 0.047551896, g: 1.1353015, b: 0.2674794, a: 0}
+      m_curves:
+      - m_duration: 0.2
+        m_normalizedCurve:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: 0
+            value: 0
+            inSlope: 0
+            outSlope: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          - serializedVersion: 3
+            time: 1
+            value: 1
+            inSlope: 2
+            outSlope: 2
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        m_floatVars:
+        - m_variableName: _FresnelPower
+          m_targetValue: 10
+        m_intVars: []
+        m_colorVars: []
+    - m_UseMaterialLerp: 1
+      m_isTimeScaleSensitive: 1
+      m_TriggerOnTick: 0
+      m_Priority: 60
+      m_stopOnInterruptByAnotherMaterialLerp: 0
+      m_applyToCharacterRenderers: 1
+      m_applyToPropRenderers: 0
+      m_propTypesToApply:
+      m_restoreInitialValuesOnStop: 1
+      m_enableLog: 0
+      m_UseStartValues: 1
+      m_MinimumDuration: 9999
+      m_StartValues:
+        m_floatVars:
+        - m_variableName: _FresnelPower
+          m_targetValue: 4
+        - m_variableName: _EnableFresnel
+          m_targetValue: 1
+        m_intVars: []
+        m_colorVars:
+        - m_variableName: _FresnelColor
+          m_targetValue: {r: 2.6183174, g: 0, b: 0, a: 0}
+      m_curves: []
+    - m_UseMaterialLerp: 1
+      m_isTimeScaleSensitive: 1
+      m_TriggerOnTick: 0
+      m_Priority: 60
+      m_stopOnInterruptByAnotherMaterialLerp: 0
+      m_applyToCharacterRenderers: 1
+      m_applyToPropRenderers: 0
+      m_propTypesToApply:
+      m_restoreInitialValuesOnStop: 1
+      m_enableLog: 0
+      m_UseStartValues: 1
+      m_MinimumDuration: 9999
+      m_StartValues:
+        m_floatVars:
+        - m_variableName: _FresnelPower
+          m_targetValue: 3
+        - m_variableName: _EnableFresnel
+          m_targetValue: 1
+        m_intVars: []
+        m_colorVars:
+        - m_variableName: _FresnelColor
+          m_targetValue: {r: 0.36252546, g: 1.6185274, b: 2.9960785, a: 0}
+      m_curves: []
+    - m_UseMaterialLerp: 1
+      m_isTimeScaleSensitive: 1
+      m_TriggerOnTick: 0
+      m_Priority: 65
+      m_stopOnInterruptByAnotherMaterialLerp: 0
+      m_applyToCharacterRenderers: 1
+      m_applyToPropRenderers: 0
+      m_propTypesToApply:
+      m_restoreInitialValuesOnStop: 1
+      m_enableLog: 0
+      m_UseStartValues: 1
+      m_MinimumDuration: 9999
+      m_StartValues:
+        m_floatVars:
+        - m_variableName: _FresnelPower
+          m_targetValue: 3
+        - m_variableName: _EnableFresnel
+          m_targetValue: 1
+        - m_variableName: _FresnelColorMultiplier
+          m_targetValue: 1
+        m_intVars: []
+        m_colorVars:
+        - m_variableName: _FresnelColor
+          m_targetValue: {r: 3.4415908, g: 0.93697757, b: 0, a: 0}
+      m_curves: []
+    - m_UseMaterialLerp: 1
+      m_isTimeScaleSensitive: 0
+      m_TriggerOnTick: 0
+      m_Priority: 60
+      m_stopOnInterruptByAnotherMaterialLerp: 0
+      m_applyToCharacterRenderers: 1
+      m_applyToPropRenderers: 1
+      m_propTypesToApply: 0100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f000000100000001100000012000000130000001400000015000000
+      m_restoreInitialValuesOnStop: 1
+      m_enableLog: 0
+      m_UseStartValues: 1
+      m_MinimumDuration: 9999
+      m_StartValues:
+        m_floatVars:
+        - m_variableName: _FresnelPower
+          m_targetValue: 0.83
+        - m_variableName: _EnableFresnel
+          m_targetValue: 1
+        - m_variableName: _FresnelColorMultiplier
+          m_targetValue: 0.83
+        - m_variableName: _EnableEmissive
+          m_targetValue: 1
+        - m_variableName: _EmissivePower
+          m_targetValue: 0.29
+        - m_variableName: _EmissionColorMultiplier
+          m_targetValue: 0
+        m_intVars: []
+        m_colorVars:
+        - m_variableName: _FresnelColor
+          m_targetValue: {r: 1.1099722, g: 1.8129547, b: 1.8869528, a: 0}
+        - m_variableName: _EmissiveColor
+          m_targetValue: {r: 0.5882353, g: 0.9607843, b: 1, a: 0}
+      m_curves: []
+    - m_UseMaterialLerp: 1
+      m_isTimeScaleSensitive: 1
+      m_TriggerOnTick: 0
+      m_Priority: 60
+      m_stopOnInterruptByAnotherMaterialLerp: 0
+      m_applyToCharacterRenderers: 1
+      m_applyToPropRenderers: 0
+      m_propTypesToApply:
+      m_restoreInitialValuesOnStop: 1
+      m_enableLog: 0
+      m_UseStartValues: 1
+      m_MinimumDuration: 0
+      m_StartValues:
+        m_floatVars:
+        - m_variableName: _FresnelPower
+          m_targetValue: 10
+        - m_variableName: _EnableFresnel
+          m_targetValue: 1
+        - m_variableName: _FresnelColorMultiplier
+          m_targetValue: 0
+        m_intVars: []
+        m_colorVars:
+        - m_variableName: _FresnelColor
+          m_targetValue: {r: 1.4270158, g: 1.732805, b: 19.468573, a: 0}
+      m_curves:
+      - m_duration: -1
+        m_normalizedCurve:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: 0
+            value: 1
+            inSlope: -4
+            outSlope: -4
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0.33333334
+          - serializedVersion: 3
+            time: 0.25
+            value: 0
+            inSlope: -4
+            outSlope: -4
+            weightedMode: 0
+            inWeight: 0.33333334
+            outWeight: 0
+          m_PreInfinity: 1
+          m_PostInfinity: 1
+          m_RotationOrder: 4
+        m_floatVars:
+        - m_variableName: _FresnelColorMultiplier
+          m_targetValue: 3
+        - m_variableName: _FresnelPower
+          m_targetValue: 2.5
+        m_intVars: []
+        m_colorVars: []
+    - m_UseMaterialLerp: 1
+      m_isTimeScaleSensitive: 1
+      m_TriggerOnTick: 1
+      m_Priority: 60
+      m_stopOnInterruptByAnotherMaterialLerp: 0
+      m_applyToCharacterRenderers: 1
+      m_applyToPropRenderers: 0
+      m_propTypesToApply:
+      m_restoreInitialValuesOnStop: 1
+      m_enableLog: 0
+      m_UseStartValues: 1
+      m_MinimumDuration: 0
+      m_StartValues:
+        m_floatVars:
+        - m_variableName: _EnableFresnel
+          m_targetValue: 1
+        - m_variableName: _FresnelPower
+          m_targetValue: 1
+        m_intVars: []
+        m_colorVars:
+        - m_variableName: _FresnelColor
+          m_targetValue: {r: 1.0039214, g: 3.2126896, b: 11.984314, a: 0}
+      m_curves:
+      - m_duration: 0.2
+        m_normalizedCurve:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: 0
+            value: 0
+            inSlope: 0
+            outSlope: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          - serializedVersion: 3
+            time: 1
+            value: 1
+            inSlope: 2
+            outSlope: 2
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        m_floatVars:
+        - m_variableName: _FresnelPower
+          m_targetValue: 10
+        m_intVars: []
+        m_colorVars: []

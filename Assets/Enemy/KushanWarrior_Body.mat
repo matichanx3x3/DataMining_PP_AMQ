@@ -1,0 +1,267 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: KushanWarrior_Body
+  m_Shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
+  m_ValidKeywords:
+  - _EMISSION
+  - _GLOSSYREFLECTIONS_OFF
+  - _METALLICGLOSSMAP
+  - _NORMALMAP
+  m_InvalidKeywords:
+  - _CHARACTER
+  - _FRESNEL
+  m_LightmapFlags: 2
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BaseMap:
+        m_Texture: {fileID: 2800000, guid: 14c33076bea607c4496a15e29f8ad7a9, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BumpMap:
+        m_Texture: {fileID: 2800000, guid: af6bce4e58c78e041a15cb9f589ef83a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailOcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DissolveMap:
+        m_Texture: {fileID: 2700000, guid: 0000000deadbeef15deadf00d0000000, type: 2}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DistortionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 2800000, guid: beae6a6abe29742488816e126426f19e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 14c33076bea607c4496a15e29f8ad7a9, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 2800000, guid: a1226450f4116b54180a28f7df0e211b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints:
+    - _DynamicFlags: 48
+    - _Version: 6
+    - _zzEditorFlags: 0
+    m_Floats:
+    - Boolean_69190b3ba8a746319e3d661c0926e27a: 0
+    - Boolean_e7b22cd7be9e4ddca0898770375f245c: 0
+    - Boolean_fd06207f7bed4607b4f127b163bbf835: 0
+    - Boolean_fd06207f7bed4607b4f127b163bbf835_1: 1
+    - ENUM_BB770246E47F452EB4429A9A09661D52: 1
+    - M_TransparencyThreshold: 0.027
+    - Vector1_2EE41B35: 1
+    - Vector1_39e11c8961184bdea132a5ea4d0147c3: 0
+    - Vector1_67697FC7: 1
+    - Vector1_6f1936f953d442069d23a868759d45d3: 1
+    - Vector1_73355302: 0.5
+    - Vector1_75ee47f76d86468890d0991da215e0f2: 0
+    - Vector1_871873FF: 0.1
+    - Vector1_8ec2845bb30046e0be3cde202ef2ff90: 2
+    - Vector1_937d31ef509243d19ee4d9071e6a38fb: 0.01
+    - Vector1_bb2461b9c2cb40beb5b5ebc4de59fe7f: 2
+    - Vector1_bd7f0710fd0046dbbf4bf8485f7c0b69: 0
+    - Vector1_ee88dbd783924b19a46790b2059480a0: 0
+    - Vector1_f93d4790ce7b4f6c84f4825136236cf8: 0
+    - Vector1_fd03bab148a547e9b9ea0939fbe9fe63: 0.01
+    - _AccessibilityCategory: 3
+    - _AlbedoVertexColor: 0
+    - _AlphaClip: 1
+    - _AlphaFresnelEnabledEdit: 0
+    - _AlphaFresnelNoiseEdit: 0
+    - _AlphaMult: 1
+    - _Blend: 0
+    - _BumpScale: 1
+    - _ClearCoatMask: 0
+    - _ClearCoatSmoothness: 0
+    - _CollisionMaterialType: 0
+    - _Cull: 2
+    - _CursedEnabled: 0
+    - _CustomAttributes: 0
+    - _Cutoff: 0.5
+    - _DecalEnabled: 0
+    - _DecalOffsetViewZ: 0.001
+    - _DepthFade: 0
+    - _DepthFadeAmount: 0
+    - _DepthFadeEdit: 0.01
+    - _DetailAlbedoOverlay: 0
+    - _DetailEnabled: 0
+    - _DetailKeepBaseAlbedo: 0
+    - _DetailKeepBaseNormal: 0
+    - _DetailKeepBaseOcclusion: 0
+    - _DetailKeepBaseRoughness: 0
+    - _DetailMapsTiling: 1
+    - _DetailMapsTilingEditX: 0
+    - _DetailMapsTilingEditY: 0
+    - _DetailMapsUsePlanar: 0
+    - _DetailMaskHeightEnabled: 0
+    - _DetailMaskHeightFactor: 1
+    - _DetailMaskHeightInvert: 0
+    - _DetailMaskHeightOffset: 0
+    - _DetailMaskInvert: 0
+    - _DetailMaskOffsetEditX: 0
+    - _DetailMaskOffsetEditY: 0
+    - _DetailMaskTiling: 1
+    - _DetailMaskTilingEditX: 1
+    - _DetailMaskTilingEditY: 1
+    - _DetailMaskUsePlanar: 0
+    - _DetailNormalMapScale: 1
+    - _DetailUVMode: 0
+    - _DissolveAmount: 0
+    - _DissolveCustomData: 0
+    - _DissolveEdgeColorMultiplier: 7.5
+    - _DissolveEdgeColorPower: 7.5
+    - _DissolveEdgeWidth: 0.05
+    - _DissolveEnableObjectGrad: 0
+    - _DissolveEnabled: 0
+    - _DissolveTilingX: 2
+    - _DissolveTilingY: 2
+    - _DissolveVFX: 0
+    - _DistortionAmount: 0
+    - _DistortionAmountCustomData: 0
+    - _DistortionEnabled: 0
+    - _DistortionOffsetX: 0
+    - _DistortionOffsetY: 0
+    - _DistortionTilingX: 1
+    - _DistortionTilingY: 1
+    - _DitheringEnabled: 0
+    - _DitheringIntensity: 0
+    - _DstBlend: 0
+    - _DynamicFlags: 48
+    - _EmissionColorMultiplier: 1
+    - _EmissionEnabled: 1
+    - _EmissionGlobalColorMultiplier: 1
+    - _EmissionIntensityCustomData: 0
+    - _EmissionVertexColor: 0
+    - _EmissiveColorTexturePower: 1
+    - _EmissivePower: 1
+    - _EnableClairvoyance: 0
+    - _EnableDissolve: 0
+    - _EnableEmissive: 1
+    - _EnableFresnel: 0
+    - _EnableReflect: 0
+    - _EnvironmentReflections: 1
+    - _FlipbookBlend: 0
+    - _FlipbookEnabled: 0
+    - _FlipbookParticleData: 1
+    - _FresnelColorMultiplier: 1
+    - _FresnelColorPower: 1
+    - _FresnelEnabled: 0
+    - _FresnelPower: 0
+    - _GlossMapScale: 0
+    - _Glossiness: 0
+    - _GlossyReflections: 0
+    - _MainCharacterGIBoost: 0
+    - _Metallic: 0
+    - _MixEnabled: 0
+    - _Mode: 0
+    - _OcclusionStrength: 1
+    - _Parallax: 0.02
+    - _QueueOffset: 0
+    - _ReceiveShadows: 1
+    - _ReflectColorPower: 1
+    - _ReflectOffset: 0
+    - _ReflectWidth: 0.1
+    - _SmoothnessMultiplierEdit: 1
+    - _SmoothnessTextureChannel: 0
+    - _SpecularHighlights: 1
+    - _SrcBlend: 1
+    - _Surface: 0
+    - _UVOffsetEditX: 0
+    - _UVOffsetEditY: 0
+    - _UVRotationEdit: 0
+    - _UVScaleEditX: 1
+    - _UVScaleEditY: 1
+    - _UVScreenSpaceEdit: 0
+    - _UVScrollCustomData: 0
+    - _UVScrollEmissive: 0
+    - _UVScrollEmissiveOnly: 0
+    - _UVSec: 0
+    - _UberType: 3
+    - _Version: 4
+    - _WindAmplitudeLocalScale: 1
+    - _WindAmplitudeScale: 1
+    - _WindEnabled: 0
+    - _ZBiasFactor: 0
+    - _ZBiasUnits: 0
+    - _ZWrite: 1
+    - _applyHideableMask: 0
+    - _zzHalveGIProbes: 0
+    m_Colors:
+    - Color_592333fbc5194baeadd2a5c2bca3f972: {r: 0, g: 0.02911901, b: 1, a: 0}
+    - Color_96916c142df1492b849a8d272e1a5a74: {r: 1, g: 1, b: 1, a: 0}
+    - Color_C74330AE: {r: 0.5019608, g: 0.5019608, b: 0.5019608, a: 0}
+    - Vector3_d7629743657940dbad952ff19d450cd0: {r: 0.05, g: 0, b: 0, a: 0}
+    - _AlphaFresnel: {r: 0, g: 1, b: 0, a: 0}
+    - _AlphaFresnelRangeEdit: {r: 0, g: 1, b: 0, a: 0}
+    - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
+    - _BaseColorPremult: {r: 1, g: 1, b: 1, a: 1}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _DIssolveUVTile: {r: 2, g: 2, b: 0, a: 0}
+    - _DepthFadeAmount: {r: 0, g: 0, b: 0, a: 0}
+    - _DetailAlbedoColor: {r: 1, g: 1, b: 1, a: 1}
+    - _DetailMapsTiling2: {r: 1, g: 1, b: 0, a: 0}
+    - _DetailMaskContrast: {r: 0, g: 1, b: 0, a: 0}
+    - _DetailMaskContrastEdit: {r: 0, g: 1, b: 0, a: 0}
+    - _DetailMaskHeight: {r: 0, g: 1, b: 0, a: 0}
+    - _DetailMaskOffset: {r: 0, g: 0, b: 0, a: 0}
+    - _DetailMaskTiling2: {r: 1, g: 1, b: 0, a: 0}
+    - _DetailPlanarAxisXYZ: {r: 0, g: 0, b: 0, a: 0}
+    - _DissolveEdgeColor: {r: 0.45098037, g: 0.019607844, b: 0, a: 1}
+    - _DistortionTilingOffset: {r: 1, g: 1, b: 0, a: 0}
+    - _EmissionColor: {r: 1, g: 1, b: 1, a: 0}
+    - _EmissionColorPremult: {r: 1, g: 1, b: 1, a: 0}
+    - _EmissionGlobalColor: {r: 0, g: 0, b: 0, a: 0}
+    - _EmissionGlobalColorPremult: {r: 0, g: 0, b: 0, a: 0}
+    - _EmissiveColor: {r: 0, g: 0, b: 0, a: 0}
+    - _EmissiveColorTexture: {r: 1, g: 1, b: 1, a: 0}
+    - _FresnelColor: {r: 1, g: 1, b: 1, a: 0}
+    - _FresnelColorPremult: {r: 0, g: 0, b: 0, a: 1}
+    - _ReflectColor: {r: 1, g: 1, b: 1, a: 0}
+    - _hideableplaneNormal: {r: 0, g: 1, b: 0, a: 0}
+    - _hideableplanePosition: {r: 0, g: 0, b: 0, a: 0}
+    - _zzSSRParams: {r: 0, g: 0, b: 0.25, a: 0}
+  m_BuildTextureStacks: []
