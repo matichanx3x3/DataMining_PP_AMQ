@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0000000deadbeef15deadf00d0000000, type: 2}
+  m_Name: SnF_MTC_AIAbility_TailImpact
+  m_EditorClassIdentifier:
+  IsActive: 1
+  m_startAbilityVFX: {fileID: 0}
+  m_startAbilitySFX:
+    idInternal: 0
+    valueGuidInternal:
+    WwiseObjectReference: {fileID: 0}
+  m_startMaterialLerpConfig:
+    m_UseMaterialLerp: 0
+    m_isTimeScaleSensitive: 1
+    m_TriggerOnTick: 0
+    m_Priority: 0
+    m_stopOnInterruptByAnotherMaterialLerp: 0
+    m_applyToCharacterRenderers: 0
+    m_applyToPropRenderers: 0
+    m_propTypesToApply:
+    m_restoreInitialValuesOnStop: 0
+    m_enableLog: 0
+    m_UseStartValues: 0
+    m_MinimumDuration: 0
+    m_StartValues:
+      m_floatVars: []
+      m_intVars: []
+      m_colorVars: []
+    m_curves: []
+  m_TriggerAIGlobalCallbackOnAbilityEffect: 0
+  m_CallbackToTriggerOnAbilityEffect: 0
+  m_endAbilityVFX: {fileID: 0}
+  m_endAbilitySFX:
+    idInternal: 0
+    valueGuidInternal:
+    WwiseObjectReference: {fileID: 0}
+  m_endMaterialLerpConfig:
+    m_UseMaterialLerp: 0
+    m_isTimeScaleSensitive: 1
+    m_TriggerOnTick: 0
+    m_Priority: 0
+    m_stopOnInterruptByAnotherMaterialLerp: 0
+    m_applyToCharacterRenderers: 0
+    m_applyToPropRenderers: 0
+    m_propTypesToApply:
+    m_restoreInitialValuesOnStop: 0
+    m_enableLog: 0
+    m_UseStartValues: 0
+    m_MinimumDuration: 0
+    m_StartValues:
+      m_floatVars: []
+      m_intVars: []
+      m_colorVars: []
+    m_curves: []
+  m_VFXOnStartBlendTree_AtTargetPosition: {fileID: 0, guid: 0000000deadbeef15deadf00d0000000, type: 2}
+  m_UseHorizontalBlendTreeRange: 1
+  m_HorizontalBlendTreeRange: {x: -15, y: 15}
+  m_VFXOnBlendTreeUpdate_LookAtTargetPosition: {fileID: 0}
